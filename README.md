@@ -19,8 +19,8 @@ Simple NodeJS REST Api with Facebook login.
 
 ## Api Routes
   * _[Tokens](#tokens)_: [Login](#login), [Logout](#logout),
-  * _[Me](#me)_: [Account](#me-account)
-  * _[Error](#error)_: [Response](#error-response)
+  * _[Me](#me)_: [Account](#account)
+  * _[Error](#error)_: [Response](#response)
 
 ### Tokens
 
@@ -37,7 +37,7 @@ Simple NodeJS REST Api with Facebook login.
       * `data` _object_
         * `accessToken` _string_
 
-#### Log out
+#### Logout
   * URL: `/v1/tokens`
   * Method: `DELETE`
   * Headers:
@@ -63,7 +63,7 @@ Simple NodeJS REST Api with Facebook login.
 
 ### Error
 
-#### Error Response
+#### Response
   * Response:
     * HTTP: `4XX` or `5XX`
     * body:
